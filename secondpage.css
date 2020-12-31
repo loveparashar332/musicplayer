@@ -1,0 +1,1158 @@
+*{
+	margin: 0px;
+ }
+ body{
+ 	position: relative;
+ 	margin: 5px;
+ 	width: auto;
+ 	background:#122436fc;
+ }
+ /* for outer container*/
+.outer-container{
+	margin-left:5px;
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+/* for adding back link to goto the first music player page*/
+.back{
+	height: auto;
+	width: auto;
+	margin: 10px;
+}
+.back a{
+
+	color: white;
+	font-size: 1.2rem;
+    text-decoration: none;
+   
+}
+.back a:hover{
+	color: red;
+}
+/* for adding music image logo*/
+.music-image{
+	width: auto;
+	height:auto;
+	margin: 10px;
+}
+
+.music-image img{
+	width: 40px;
+	height: 40px;
+	transition: all 1s ease-in-out;
+}
+.music-image img:hover{
+    transform: scale(1.5);
+}
+/* to add dropdown for this honeysingh image*/
+.dropdown{
+	height: auto;
+	width: auto;
+	margin-left: 30px;
+	margin-top: 10px;
+	position: relative;
+}
+
+ul{
+	list-style: none;	
+}
+ul li{
+	width: 200px;
+	height: 50px;
+	background: #122436fc;
+    z-index: -1;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	z-index: -1;
+}
+ul li a:hover{
+	background-color: green;
+	z-index: -1;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: -1;
+}
+#list1{
+	background: #122436fc;
+}
+/* to add searching element*/
+.to-search{
+	
+	height: auto;
+	width: auto;
+	display: flex;
+	position: relative;
+	left: 35%;
+}
+.to-search #search-bar{
+    display: flex;
+	width: 300px;
+	height: 35px;
+	border-radius: 1.2rem;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 30px;
+	background-color:#121636fc;
+	padding-bottom: 2px;
+	box-shadow: -4px -4px 5px 4px rgba(0.3,0.2,0,0.1);
+	
+}
+.to-search #search-bar:hover{
+	border-radius: 0;
+}
+#icons{
+    
+	margin-left:9px;
+	height: auto;
+	margin-top: 10px;
+	width: auto;
+}
+#icons i{
+	font-size: 1.1rem;
+	color: white;
+}
+#icons i:hover{
+	box-shadow: 0px 0px 8px 6px lightgrey;
+}
+#para{
+	height: auto;
+	width: auto;
+	margin: 10px;
+
+}
+/* for adding paragraph means search.. in search input*/
+#para p{
+	display: inline-block;
+	font-size: 1.2rem;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+/* for adding microphone icon*/
+#microphone{
+	margin-bottom: 5px; 
+	margin-left: 150px;
+	margin-top: 10px;
+}
+#microphone i{
+	font-size: 1.2rem;
+	color: white;
+}
+#microphone i:hover{
+	
+	box-shadow: 0px 0px 8px 6px lightgrey;
+	
+}
+/* bell icon in search element*/
+#bell-icon{
+	margin-top: 10px;
+}
+#bell-icon i{
+	font-size: 2rem;
+	color: white;
+
+}
+#bell-icon i:hover{
+	box-shadow: 0px 0px 8px 6px lightgrey;
+}
+/* my photo*/
+#background-music{
+	 margin-left: 49px;
+	 display: inline-block;
+}
+#background-music img{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  transition: 1s ease-in-out;
+  z-index: 100;
+}
+#background-music img:hover{
+       transform: translate(-50%,10%) scale(1.5);
+       z-index: 14;
+}
+/* to write the main content*/
+.main-content{
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+/* for left hand side*/
+.main-body{
+	width: 65%;
+	margin: 10px;
+	margin-bottom: 0px;
+	height: 79vh;
+	margin-left: 50px;
+	display: inline-block;
+	 overflow: scroll;
+    overflow-x: hidden;
+	z-index: -1;
+
+}
+.main-body::-webkit-scrollbar{
+	background: transparent;
+	width: 0px;
+}
+.honey-intro{
+	width: 100%;
+    height: auto;
+    display: flex;
+    background: #121636fc;
+    z-index: -1;
+}
+/* honey simgh photo*/
+.honey-photo{
+    width: 37%;
+    height: 100%;
+    margin-right: 20px;
+}
+.honey-photo img{
+	width: 100%;
+	height: 100%;
+}
+.honey-photo img:hover{
+	box-shadow: 0px 0px 8px 6px lightgreen;
+}
+.para{
+	margin-top: 18px;
+	width: 35%;
+	height: auto;
+}
+.para h1{
+	font-size: 1.8rem;
+	font-weight: bold;
+    color: white;
+}
+.para h1:hover{
+	color: green;
+}
+
+.para p{
+	margin-top: 5px;
+	color: white;
+	font-size: 1.1rem;
+}
+.para p:hover{
+	color: orange;
+}
+.para span{
+	margin-left:25px; 
+}
+.para a{
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: white;
+	transition: all 1s ease-in-out;
+}
+.para a:hover{
+   transform: scale(1.5);
+}
+/* for adding button tag or to customise it*/
+.play-button{
+	margin-top: 50px;
+	height: 45px;
+	width: 140px;
+	text-align: center;
+	font-size: 1.4rem;
+	background: linear-gradient(blue,purple);
+	border-width: 0px;
+}
+.play-button:hover{
+	box-shadow: 2px 2px 0px 1px lightgrey;
+}
+.followers{
+   margin-left: 70px;
+   margin-top: 20px;
+   width: 200px;
+   height: auto;
+}
+.followers p{
+	font-size: 1rem;
+	color: white;
+}
+.followers p:hover{
+	color: red;
+}
+/* for adding songs*/
+.adding-songs{
+	 width: 100%;
+     background: #121636fc;
+     height: 80px;
+     margin-top: 10px;
+     display: flex;
+     position: relative;
+    
+}
+.honeysong{
+	height: auto;
+	width: 10%;
+	margin:7px;
+}
+.honeysong img{
+	height: 100%;
+	width: 100%;
+	transition: all 1s ease-in-out;
+	border-radius: 0.4rem;
+	box-shadow: 0px 0px 9px 8px rgba(0.3,0.2,0,0.3);
+}
+.honeysong img:hover{
+	box-shadow: 0px 0px 12px 11px rgba(0.3,0.2,0,0.3);
+	transform: scale(2) translate(50%,-10%);
+
+}
+.time{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.time p{
+
+    color: lightgrey;
+
+}
+.adding-heart{
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 10%;
+}
+.adding-heart i{
+	
+	margin-top: 30px;
+    font-size: 0.8rem;
+    color: lightgrey;
+}
+.adding-heart i:hover{
+      color: red;
+}
+.adding-plus{
+	position: absolute;
+	right: 3%;
+}
+.adding-plus:hover{
+	color: red;
+	transform: scale(1.3);
+}
+/* adding bottom of music player*/
+.music-player{
+	width: 100%;
+	background: black;
+	height: 70px;
+	position: relative;
+	display: flex;
+}
+.song-image{
+	width: 100px;
+	height: auto;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 1s ease-in-out;
+}
+.song-image:hover{
+	border-radius: 0.8rem;
+     box-shadow: 0px 0px 8px 7px lightgrey;
+
+}
+.song-image img{
+	width: 100%;
+}
+.about-song{
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	height: auto;
+	width: auto;
+}
+.about-song h2{
+	font-size: 1.4rem;
+	color: white;
+    margin-bottom: 1px;
+}
+.about-song h2:hover{
+	color: blue;
+
+}
+.about-song p{
+	font-size: 1rem;
+	color: grey;
+
+}
+.about-song p:hover{
+  color:yellow;
+}
+.icons2{
+	margin: 7px;
+    display: flex;
+    width: 70px;
+    height: auto;
+
+}
+.icons2 i{
+	color: white;
+	font-size: 1rem;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+/* to add icons in bottom part*/
+.adding-music{
+	position: absolute;
+	left: 39%;
+	width: 30%;
+	top: 5px;
+	bottom: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.icons-shuffling{
+	width: 100%;
+	height: 40%;
+	
+}
+.icons-shuffling i:hover{
+     box-shadow: 0px 0px 8px 7px lightgrey;
+}
+.icons-shuffling #icon1{
+	 margin-left: 150px;
+	 margin-top: 10px;
+	 font-size: 1rem;
+	 color: white;
+	 
+}
+.icon2{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 1rem;
+	color: white;
+
+}
+.fluid-reacher{
+   width: 100%;
+   height: 60%;
+}
+.fluid-reacher span{
+	margin-left: 30px;
+	margin-top:5px;
+	font-size: 0.8rem;
+	color: grey;
+	display: flex;
+}
+.song-amount{
+	margin-left: 70px;
+	margin-top: 5px;
+	width: 70%;
+	height: 4px;
+	background: grey;
+	position: relative;
+	border-radius: 0.7rem;
+}
+.song-amount:hover > div{
+	width: 0%;
+	animation: widthdiv 3s 1;
+
+}
+/* adding dynamic nature on hovering to that fluid div*/
+@keyframes widthdiv{
+	0%{
+		width: 0%;
+	}
+	
+	50%{
+		width: 50%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+.fill{
+	height: 4px;
+	position: relative;
+	width: 100px;
+	background-color: lightgreen;
+}
+.fill >div{
+	position: absolute;
+	top: -100%;
+	height: 13px;
+	width: 13px;
+	border-radius: 50%;
+	right: 0%;
+	background: white;
+}
+#end-audio{
+	position: absolute;
+	right:  8%;
+	top: 30%;
+}
+.increase-width{
+	position: absolute;
+	right: 9%;
+	width: 100px;
+	height: 50px;
+	top: 15%;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: row;
+}
+.volume-upicon{
+	margin-left: 2px;
+	margin-top: 10px;
+	height: auto;
+	width: auto;
+}
+/* adding volume icon*/
+.volume-upicon i{
+	font-size: 1rem;
+	color: white;
+}
+.timeline{
+	margin-left: 4px;
+	margin-top: 18px;
+	width: 55px;
+	height: 2.5px;
+	border: 1px solid white;
+	border-radius: 0.7rem;
+}
+.timeline >div{
+	height: 2.5px;
+	width: 20%;
+	border-radius: 0.7rem;
+	background: lightgreen;
+
+}
+.timeline:hover >div{
+	width: 20%;
+	animation:width 4s infinite;
+}
+/* dynamic nature on hovering on volume up icon*/
+@keyframes width{
+      0%{
+      	width: 20%;
+      }
+      50%{
+      	width: 50%;
+      }
+      100%{
+      	width: 100%;
+      }
+}
+/* adding right hand side content in music player*/
+.side-content{
+	position: absolute;
+	display: inline-block;
+	width: 26%;
+	margin-left: 15px;
+	margin-top: 10px;
+    height: 79vh;
+    padding-bottom: 10px;
+     border-bottom: 2px solid red;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.side-content::-webkit-scrollbar{
+	width: 0;
+	background: transparent;
+}
+.similar-artists{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.paragraph{
+	width: 100%;
+	margin:5px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.heading{
+	width: 50%;
+	height:60px;
+}
+.heading h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+.view{
+	width: 50%;
+	height: 70px;
+}
+.view p{
+	font-size: 1rem;
+	color: grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+}
+.content-div{
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	position: relative;
+	margin-bottom: 20px;
+}
+.content-div:hover{
+  box-shadow: 0px 0px 3px 2px lightgrey;
+ 
+}
+.image-dragons{
+	height:    70px;
+	width:   70px;
+	border-radius: 0.4rem;
+	margin-left: 15px;
+	margin-right: 12px;
+}
+.image-dragons img{
+	
+     height:   70px;
+     width: 70px;
+	border-radius: 0.2rem;
+	box-shadow: 0px 0px 8px 6px rgba(0.3,0.2,0,0.3);
+}
+.image-dragons img:hover{
+	box-shadow: 0px 0px 12px 12px rgba(0.3,0.2,0,0.3);
+	transform: scale(1.2);
+}
+.heading-imaginedragons{
+	width:auto;
+    height: auto;
+    margin-top: 10px;
+}
+.heading-imaginedragons h2{
+	font-size: 1.2rem;
+	color: white;
+	margin:5px;
+	margin-bottom: 8px;
+}
+.heading-imaginedragons h2:hover{
+	color: yellow;
+}
+.heading-imaginedragons p{
+	font-size: 0.9rem;
+	color: grey;
+	margin: 5px;
+	margin-left: 10px;
+}
+.heading-imaginedragons p:hover{
+	color: white;
+}
+
+.pop-up{
+	height: auto;
+	width: auto;
+    position: absolute;
+    right: 5%;
+    top: 27%;
+
+
+}
+.pop-up i{
+	font-size: 1rem;
+	color: white;
+    margin-bottom: 7px;
+    
+}
+.pop-up i:hover{
+	transform: scale(1.5);
+	color: red;
+}
+.pop-up p{
+	color: grey;
+}
+.pop-up p:hover{
+	color: green;
+}
+.recently-played{
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.content{
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.content:hover{
+	box-shadow: 0px 0px 4px 3px lightgrey;
+}
+.content #counting{
+	height: 10px;
+	width: 10px;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+.content #counting p{
+	font-size: 1rem;
+	color: grey;
+    
+}
+.recent-image{
+	height: 70px;
+	width: 70px;
+	border-radius: 0.4rem;
+	margin-left: 15px;
+	margin-right: 12px;
+}
+.recent-image img{
+	height: 70px;
+	width: 70px;
+	border-radius: 0.4rem;
+	box-shadow: 0px 0px 8px 7px rgba(0.3,0.2,0,0.3);
+}
+.recent-image iframe{
+	height: 100px;
+	width: 150px;
+	border-radius: 0.4rem;
+}
+.recent-image img:hover{
+	box-shadow: 0px 0px 12px 12px rgba(0.3,0.2,0,0.3);
+	transform: scale(1.2);
+}
+.name-song{
+	width:auto;
+    height: auto;
+    margin-top: 10px;
+}
+.name-song h2{
+	font-size: 1.2rem;
+	color: white;
+	margin:5px;
+	margin-bottom: 8px;
+
+}
+.name-song h2:hover{
+	color: yellow;
+	transform: scale(1.2);
+}
+.name-song p{
+	font-size: 0.9rem;
+	color: grey;
+	margin: 5px;
+	margin-left: 10px;
+}
+.add-hearticon{
+	position:absolute;
+	right: 5%;
+	top: 20%;
+}
+.add-hearticon i{
+	font-size: 1rem;
+	color: white;
+}
+.add-hearticon i:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.bebe-clips{
+
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.intro-clip{
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 50%;
+	top: 37%;
+}
+.intro-clip h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.intro-clip h1:hover{
+	color: green;
+	transform: scale(1.3);
+}
+.intro-clip p{
+	font-size: 1.1rem;
+	color: grey;
+	margin-top: 1px;
+}
+.intro-clip p:hover{
+	color:yellow;
+	transform: scale(1.4);
+}
+.clip-heart{
+	position: absolute;
+	width: auto;
+	height: auto;
+	right: 5%;
+	top: 47%;
+}
+.clip-heart i{
+	font-size: 1.2rem;
+	color: white;
+
+}
+
+/* adding media queries*/
+@media (max-width: 1330px){
+	.to-search{
+        left: 5%;
+	}
+	.content div iframe{
+		width: 120px;
+		height: 120px;
+	}
+	.intro-clip{
+		left: 45%;
+	}
+}
+@media (max-width: 1160px){
+	.adding-music{
+		left:30%;
+	}
+	.icons-shuffling #icon1{
+		margin-left: 120px;
+	}
+   .song-amount{
+	margin-left: 100px;
+	width: 60%;
+	height: 4px;
+   }
+   .fluid-reacher{
+   	width: 100%;
+   }
+   #end-audio{
+	position: absolute;
+	right:  7%;
+	top: 30%;
+  }
+  .fluid-reacher span{
+  	
+	margin-left: 85px;
+	margin-top: 5px;
+	font-size: 0.8rem;
+   }
+   .view p{
+   	margin-left: 80px;
+   }
+   .main-body{
+   	width: 60%;
+   }
+   .side-content{
+   	width: 32%;
+   }
+}
+@media (max-width: 920px){
+  .to-search #search-bar{
+   
+	width: 250px;
+	
+  }
+  .main-body{
+  	width: 55%;
+  }
+  .side-content{
+  	width: 40%;
+  }
+  #microphone{
+  	margin-left: 115px;
+  }
+  #search-bar i{
+  	font-size: 1rem;
+  }
+  #bell-icon i{
+  	font-size: 1.5rem;
+  }
+  #background-music{
+  	margin-left: 30px;
+  }
+  #para p{
+  	font-size: 1rem;
+  }
+  .content div iframe{
+		width: 90px;
+		height: 90px;
+	}
+	.intro-clip{
+		left: 39%;
+	}
+	.intro-clip h1{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+   }
+  .intro-clip p{
+	font-size: 1rem;
+	color: grey;
+	margin-top: 1px;
+   }
+  .clip-heart i{
+	font-size: 1rem;
+   }
+   .heading h2{
+   	font-size: 1.2rem;
+   }
+   .image-dragons {
+   	width: 60px;
+   	height: 60px;
+   }
+   .image-dragons img{
+   	width: 60px;
+   	height: 60px;
+   }
+   .image-dragons p {
+    font-size: 0.8rem;
+    color: grey;
+    margin-top: 1px;
+    margin-left: 10px;
+   }
+   
+   .about-song h2{
+   	 font-size: 1.2rem;
+   }
+   .icons-shuffling #icon1{
+   	margin-left: 40px;
+   	color: black;
+   }
+   #new-icon{
+   	color: black;
+   }
+   .adding-music{
+   	left: 35%;
+   }
+   .song-amount{
+   	margin-left: 50px;
+   	margin-top: 20px;
+   }
+   .fluid-reacher span{
+   	font-size: 0px;
+   	color: black;
+   }
+   #end-audio{
+   	font-size: 0px;
+   	color: black;
+   }
+}
+@media (max-width: 850px){
+	.main-body{
+		width: 50%;
+	}
+	.para h1{
+		font-size: 1.3rem;
+	}
+	.para p{
+		font-size: 0.9rem;
+	}
+	.followers p{
+		font-size: 0.8rem;
+	}
+   .play-button {
+    margin-top: 15px;
+    height: 35px;
+    width: 140px;
+    text-align: center;
+    font-size: 1.1rem;
+    background: linear-gradient(blue,purple);
+    border-width: 0px;
+   }
+   .honey-photo{
+   	width: 43%;
+   }
+   .honey-photo img{
+   	width: 100%;
+   }
+   .dropdown{
+   	margin-left: 5px;
+   }
+   ul li{
+   	width: 150px;
+   	font-size: 13px;
+   	height: 30px;
+   }
+   .name-song h2 {
+    font-size: 0.9rem;
+  }
+  .name-song p{
+  	font-size: 0.7rem;
+  }
+  .heading-imaginedragons h2 {
+    font-size: 0.9rem;
+    margin: 2px;
+   
+   }
+   #bell-icon{
+   	margin-top: 10px;
+   }
+   #bell-icon i{
+   	font-size: 0.9rem;
+   	margin-top: 10px;
+   }
+   #background-music{
+   	height: 30px;
+   	width: 30px;
+   	margin-left: 10px;
+   	margin-top: 10px;
+   }
+   #background-music img{
+   	height: 30px;
+   	width: 30px;
+   }
+   .heading h2{
+   	font-size: 1rem;
+   }
+   .view p{
+     font-size: 0.8rem;
+   }
+}
+@media (max-width: 700px){
+	.main-body{
+		width: 46%;
+	}
+	.side-content{
+		width: 48%;
+	}
+	.adding-music{
+		left: 40%;
+	}
+	.to-search{
+		display: inline-block;
+	}
+	.pop-up{
+		right: 20%;
+	}
+	.view p{
+		margin-left: 20px;
+	}
+	.add-hearticon {
+   
+    right: 20%;
+   
+  }
+  .clip-heart{
+  	right: 15%;
+  }
+
+
+}
+@media (max-width: 610px){
+	ul li{
+		width: 70px;
+		height: 30px;
+		margin-right: 10px;
+	}
+	.side-content{
+		width: 50%;
+	}
+	.main-body{
+		margin-left: 5px;
+	}
+	.pop-up{
+		right: 10%;
+	}
+	.view p{
+		margin-left: 20px;
+	}
+	.add-hearticon {
+   
+    right: 22%;
+   
+  }
+  .clip-heart{
+  	right: 10%;
+  }
+  .image-dragons{
+  	width: 45px;
+  	height: 47px;
+  }
+  .image-dragons img {
+    width: 45px;
+    height: 47px;
+  }
+  .recent-image{
+  	height: auto;
+  	width: auto;
+  }
+  .recent-image img {
+    height: 50px;
+    width: 50px;
+    
+ }
+  .content div iframe{
+		width: 70px;
+		height: 70px;
+	}
+	.honey-intro{
+		display: flex;
+		flex-direction: column;
+	}
+	.honey-photo{
+		display: block;
+		width: 100%;
+	}
+	.para{
+		margin-left: 25px;
+	}
+	.icons2{
+    
+	margin-left:2px;
+	height: auto;
+	margin-top: 10px;
+	width: auto;
+   }
+   .icons2 i{
+	font-size: 0;
+	color: white;
+  }
+  .icon2{
+  	font-size: 0.7rem;
+  	margin-left: 5px;
+  }
+  .fluid-reacher{
+  	margin-left: 0px;
+  }
+  .song-amount{
+  	margin-left: 40px;
+  }
+  .honeysong{
+  	height: 50px;
+  }
+  .intro-clip h1 {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .intro-clip{
+  	left: 45%;
+  }
+  .addheart-icon{
+  	right: 10%;
+  }
+  .to-search #search-bar {
+    width: 200px;
+  }
+  #microphone {
+    margin-left: 65px;
+  }
+}
